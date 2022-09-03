@@ -29,7 +29,7 @@ const Cards = () => {
             granted = "1 Granted User"
             send = "Send up to 2 GB"
             background = "w-full shadow-xl flex flex-col bg-gray-100 p-4 my-4 rounded-lg hover:scale-105 duration-300"
-            className = 'font-bold mt-4 text-[#00df9a] bg-black w-[200px] rounded-md font-md mx-auto px-6 py-3'
+            className = 'font-bold mt-4 text-[#00df9a] bg-black w-[200px] rounded-md font-md mx-auto px-6 py-3 hover:scale-105 duration-200'
             />
 
             <Description 

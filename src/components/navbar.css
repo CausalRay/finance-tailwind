@@ -1,0 +1,15 @@
+.links::after{
+    content:"";
+    position: absolute;
+    height: 3px;
+    width:0;
+    background-color: white;
+    bottom: -5px;
+    right: 0px;
+    transition: all 300ms ease;
+}
+
+.links:hover:after{
+    width: 100%;
+    left: 0;
+}

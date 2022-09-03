@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
+import "./navbar.css"
 
 
 const Navbar = () => {
@@ -14,11 +15,10 @@ const Navbar = () => {
     <div className=' flex justify-between items-center h-24 text-white max-w-[1240px] mx-auto px-4'>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
         <ul className='hidden md:flex'>
-          <li className='p-4'>Home</li>
-          <li className='p-4'>Company</li>
-          <li className='p-4'>Resources</li>
-          <li className='p-4'>About</li>
-          <li className='p-4'>Contact</li>
+          <li className=' links mr-6 relative cursor-pointer'>Home</li>
+          <li className=' links mr-6 relative whitespace-nowrap cursor-pointer'>Sign In</li>
+          <li className=' links mr-6 relative cursor-pointer'>About</li>
+          <li className=' links mr-6 relative cursor-pointer'>Contact</li>
         </ul>
 
     <div className="block md:hidden cursor-pointer " onClick={handleNav} >
@@ -30,8 +30,7 @@ const Navbar = () => {
     <h1 className='w-full text-3xl font-bold m-4 text-[#00df9a]'>REACT.</h1>
       <ul className='p-4 uppercase '>
           <li className='p-4 border-b border-gray-600'>Home</li>
-          <li className='p-4 border-b border-gray-600'>Company</li>
-          <li className='p-4 border-b border-gray-600'>Resources</li>
+          <li className='p-4 border-b border-gray-600'>Sign In</li>
           <li className='p-4 border-b border-gray-600'>About</li>
           <li className='p-4'>Contact</li>
       </ul>
